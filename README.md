@@ -8,3 +8,4 @@ The following pages were used:
 - https://www.w3schools.com/howto/howto_css_menu_icon.asp
 - https://unsplash.com/de
 - https://fonts.google.com/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/animation
