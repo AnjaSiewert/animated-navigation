@@ -8,6 +8,14 @@ const nav5 = document.getElementById('nav-5');
 
 function toggleNavigation () {
     menuBars.classList.toggle('change');
+    overlay.classList.toggle('overlay-active');
+    if(overlay.classList.contains('overlay-active')) {
+        overlay.classList.add('overlay-slide-right');
+        overlay.classList.remove('overlay-slide-left');
+    } else {
+        overlay.classList.add('overlay-slide-left');
+        overlay.classList.remove('overlay-slide-right');
+    }
 };
 
 // Event listeners
